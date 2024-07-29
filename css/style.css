@@ -1,0 +1,372 @@
+body {
+  font-family: Red Hat Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 67.2px;
+  text-align: left;
+}
+.about {
+  margin-top: 22px;
+  margin-left: 165px;
+}
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: #25202f;
+  padding: 10px 15px;
+  border: none;
+
+  background-color: white;
+  box-shadow: 0px 20px 50px 0px #c6b9e94d;
+}
+.btnNav {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+/* .hero {
+  height: 783px;
+} */
+.shapes {
+  background: url('../images/Elements.png') no-repeat;
+  background-position: right;
+  height: 100vh;
+  object-fit: contain;
+}
+/* .aboutImg {
+  background: url('../images/main.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+.services h6,
+.portfolio h6 {
+  color: #8643dc;
+}
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #8643dc;
+}
+.polygon {
+  background-image: url('../images/polygon.png');
+  background-repeat: no-repeat;
+  position: relatives;
+  width: 62px;
+  height: 60.59px;
+}
+.polygon i {
+  color: white;
+  position: absolute;
+}
+.explore {
+  color: #25202f;
+}
+.explore + i {
+  color: #8643dc;
+}
+.portfolio {
+  background: -webkit-linear-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(187, 133, 255, 0.14)),
+    to(rgba(255, 177, 222, 0.14))
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(187, 133, 255, 0.14) 0%,
+    rgba(255, 177, 222, 0.14) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(187, 133, 255, 0.14) 0%,
+    rgba(255, 177, 222, 0.14) 100%
+  );
+}
+.portfolioImgs {
+  height: 427px;
+}
+.leftImg {
+  background-image: url('../images/Rectangle5.png');
+  background-repeat: no-repeat;
+}
+.rightImg {
+  background-image: url('../images/Rectangle6.png');
+  background-repeat: no-repeat;
+}
+.slackDiv {
+  width: 170px;
+  height: 170px;
+  border: 1px solid #ffe7f0;
+  background-color: #fff6fa;
+}
+.slack {
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/slack.png');
+  background-repeat: no-repeat;
+}
+.medium {
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/m.png');
+  background-repeat: no-repeat;
+}
+.mediumDiv {
+  width: 170px;
+  height: 170px;
+  border: 1px solid #caffe1;
+  background-color: #edfff5;
+}
+.microsoft {
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/microsoft.png');
+  background-repeat: no-repeat;
+}
+.microsoftDiv {
+  width: 170px;
+  height: 170px;
+  border: 1px solid #ddf5ff;
+  background-color: #f5fcff;
+}
+.zeplin {
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/space.png');
+  background-repeat: no-repeat;
+}
+.zeplinDiv {
+  width: 170px;
+  height: 170px;
+  border: 1px solid #ffeec9;
+  background-color: #fffbf2;
+}
+.shopify {
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/shopping.png');
+  background-repeat: no-repeat;
+}
+.shopifyDiv {
+  width: 170px;
+  height: 170px;
+  border: 1px solid #dbffc3;
+  background-color: #f4ffed;
+}
+.offcanvas-body {
+  height: 800px;
+}
+ul li {
+  color: #5a6378;
+}
+ul li:active {
+  color: #25202f;
+}
+.iconDiv {
+  width: 65px;
+  height: 65px;
+  background-color: #f3f5f6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-indicators .active {
+  background-color: #8643dc;
+}
+.carouselLeft {
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/manWithGlass.png');
+  filter: blur(2px);
+  background-repeat: no-repeat;
+}
+.carouselRight {
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/woman.png');
+  filter: blur(2px);
+  background-repeat: no-repeat;
+}
+.testimonials {
+  background: linear-gradient(
+    180deg,
+    rgba(203, 163, 255, 0.2) 0%,
+    rgba(197, 255, 176, 0.2) 100%
+  );
+  border: 1px solid #debad9;
+}
+.leftdownPic {
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/personwzcap.png');
+  background-repeat: no-repeat;
+  filter: blur(2px);
+}
+.rightdownPic {
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/person2.png');
+  background-repeat: no-repeat;
+  filter: blur(2px);
+}
+.centerDownImg {
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/person1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#carouselOpinions button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #debad9;
+}
+
+.carousel-indicators .active {
+  background-color: #8643dc !important;
+  color: #8643dc !important;
+}
+.quote {
+  background-image: url('../images/Quote.png');
+  width: 42px;
+  height: 42px;
+  color: #8643dc;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blog1 {
+  width: 350px;
+  height: 233px;
+  background: url('../images/Rectangle13.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog2 {
+  height: 350px;
+  width: 255px;
+  background: url('../images/Rectangle14.png') no-repeat;
+  background-position: center;
+}
+.blog2para {
+  background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #25202f 100%);
+}
+.blog3 {
+  height: 350px;
+  width: 255px;
+  background: url('../images/Rectangle15.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog3para {
+  height: 350px;
+  background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #25202f 100%);
+  background-position: center;
+  background-size: cover;
+}
+.contact {
+  background: linear-gradient(
+    180deg,
+    rgba(187, 133, 255, 0.166) -8.54%,
+    rgba(255, 244, 251, 0.2) 100%
+  );
+}
+.blogH6,
+.blogPara,
+.infoMail,
+.contactH6 {
+  color: #8643dc;
+}
+
+.form input {
+  background-color: transparent;
+  color: #a8a0b0;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  border-bottom: 1px solid #dad2e3;
+}
+.formButton {
+  background-color: #8643dc !important;
+  color: white;
+}
+.attach {
+  color: #637085;
+}
+.finalExplore {
+  color: #8643dc;
+}
+.polygono {
+  background: url('../images/polygon.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+.atCenter {
+  transform: translate(-50%, -50%);
+}
+.red {
+  color: red;
+  text-align: center;
+}
